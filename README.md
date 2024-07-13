@@ -20,16 +20,16 @@ This project aims to analyze customer data to evaluate the performance of menu i
 ---
 
 ## Project Overview
-The Taste World Cafe recently debuted a new menu and this project evaluates the menu items' performance and customer preferences.
+Taste World Cafe recently debuted a new menu at the beginning of the year. This project aims to analyze customer data to evaluate the performance of menu items. The goal is to identify which menu items are performing well and which ones are not, and to understand customer preferences. By analyzing this data, the project seeks to provide insights into what the top customers prefer and which menu items are popular.
 
 ---
 
 ## Dataset
 The project utilizes data from two main tables:
 - **menu_items**: Contains details about each menu item including its ID, name, category, and price.
-- **order_details**: Provides information on each customer order, linking menu items to specific orders through item IDs.
-
-![Dataset Schema] ![image](https://github.com/user-attachments/assets/aa6cbf83-24f9-4b0c-8c9e-2f382d4a23e4)
+- **order_details**: Provides information on each customer order, linking menu items to specific orders through item IDs. It includes columns for `order_id`, `order_date`, `order_time`, and `item_id`.
+  
+![Dataset Schema](https://github.com/user-attachments/assets/aa6cbf83-24f9-4b0c-8c9e-2f382d4a23e4)
 
 ---
 
