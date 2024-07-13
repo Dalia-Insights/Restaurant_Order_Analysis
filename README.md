@@ -44,8 +44,7 @@ The project utilizes data from two main tables:
 ---
 
 ## Tools Used
-- MySQL: For data storage and querying from the menu_items and order_details tables.
-- Jupyter Notebook: For data exploration, analysis, and visualization.
+- **MySQL**: For data storage and querying from the `menu_items` and `order_details` tables.
 
 ---
 
