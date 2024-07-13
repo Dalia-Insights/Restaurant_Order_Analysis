@@ -29,7 +29,7 @@ The project utilizes data from two main tables:
 - **menu_items**: Contains details about each menu item including its ID, name, category, and price.
 - **order_details**: Provides information on each customer order, linking menu items to specific orders through item IDs.
 
-![Dataset Schema](path/to/your/image.png)
+![Dataset Schema] ![image](https://github.com/user-attachments/assets/aa6cbf83-24f9-4b0c-8c9e-2f382d4a23e4)
 
 ---
 
