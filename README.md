@@ -26,8 +26,18 @@ Taste World Cafe recently debuted a new menu at the beginning of the year. This 
 
 ## Dataset
 The project utilizes data from two main tables:
-- **menu_items**: Contains details about each menu item including its ID, name, category, and price.
-- **order_details**: Provides information on each customer order, linking menu items to specific orders through item IDs. It includes columns for `order_id`, `order_date`, `order_time`, and `item_id`.
+- **menu_items**: Contains details about each menu item including its columns:
+  - `menu_item_id`: Unique ID of a menu item.
+  - `item_name`: Name of a menu item.
+  - `category`: Category or type of cuisine of the menu item.
+  - `price`: Price of the menu item (US Dollars $).
+
+- **order_details**: Provides information on each customer order, linking menu items to specific orders through item IDs. It includes columns for:
+  - `order_details_id`: Unique ID of an item in an order.
+  - `order_id`: ID of the order.
+  - `order_date`: Date when the order was placed.
+  - `order_time`: Time when the order was placed.
+  - `item_id`: Matches the `menu_item_id` in the `menu_items` table.
   
 ![Dataset Schema](https://github.com/user-attachments/assets/aa6cbf83-24f9-4b0c-8c9e-2f382d4a23e4)
 
