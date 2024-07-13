@@ -1,4 +1,66 @@
 ![resturant order ananlysis jpg_1](https://github.com/user-attachments/assets/eeb0334c-eae4-4c3b-a078-b1375e7523a8)
 
-# The Taste of the world Cafe
-The Taste World Cafe recently debuted a new menu at the beginning of the year. This project aims to analyze customer data to evaluate the performance of menu items and understand customer preferences.
+# Taste World Cafe Customer Analysis Project
+
+## Overview
+This project aims to analyze customer data to evaluate the performance of menu items and understand customer preferences at Taste World Cafe.
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dataset](#dataset)
+3. [Tools Used](#tools-used)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+    - [Objective 1: Explore the items table](#objective-1-explore-the-items-table)
+    - [Objective 2: Explore the orders table](#objective-2-explore-the-orders-table)
+    - [Objective 3: Analyze customer behavior](#objective-3-analyze-customer-behavior)
+5. [Data Analysis Queries](#data-analysis-queries)
+6. [Results and Findings](#results-and-findings)
+7. [References](#references)
+
+---
+
+## Project Overview
+The Taste World Cafe recently debuted a new menu and this project evaluates the menu items' performance and customer preferences.
+
+---
+
+## Dataset
+The project utilizes data from two main tables:
+- **menu_items**: Contains details about each menu item including its ID, name, category, and price.
+- **order_details**: Provides information on each customer order, linking menu items to specific orders through item IDs.
+
+![Dataset Schema](path/to/your/image.png)
+
+---
+
+## Tools Used
+- MySQL: For data storage and querying from the menu_items and order_details tables.
+- Jupyter Notebook: For data exploration, analysis, and visualization.
+
+---
+
+## Exploratory Data Analysis
+
+### Objective 1: Explore the items table
+Your first objective is to better understand the items table by finding the number of rows, the least and most expensive items, and more.
+
+### Objective 2: Explore the orders table
+Your second objective is to understand the orders table by finding the date range, number of items per order, and more.
+
+### Objective 3: Analyze customer behavior
+Your final objective is to combine tables, find the least and most ordered categories, and analyze high spend orders.
+
+---
+
+## Data Analysis Queries
+You can find the SQL queries used to answer the objectives in the project in this section.
+
+---
+
+## Results and Findings
+This section presents the results and insights derived from the data analysis.
+
+---
+
+## References
+- Guided Projects @ Maven Analytics: [Link to project](https://app.mavenanalytics.io/guided-projects/d7167b45-6317-49c9-b2bb-42e2a9e9c0bc#4mVvHvyFSbxxbwMliOuEx9)
