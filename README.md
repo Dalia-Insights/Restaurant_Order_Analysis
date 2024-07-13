@@ -9,7 +9,7 @@ This project aims to analyze customer data to evaluate the performance of menu i
 1. [Project Overview](#project-overview)
 2. [Dataset](#dataset)
 3. [Tools Used](#tools-used)
-4. [Exploratory Data Analysis](#exploratory-data-analysis)
+4. [Exploratory Data Analysis: Uncovering Insights](#exploratory-data-analysis-:-uncovering-Insights)
     - [Objective 1: Explore the items table](#objective-1-explore-the-items-table)
     - [Objective 2: Explore the orders table](#objective-2-explore-the-orders-table)
     - [Objective 3: Analyze customer behavior](#objective-3-analyze-customer-behavior)
@@ -74,8 +74,13 @@ Combine data from `menu_items` and `order_details` to gain insights into custome
 ---
 
 ## Data Analysis Queries
-You can find the SQL queries used to answer the objectives in the project in this section.
+### Objective 1: Explore the items table
 
+#### Query 1: Total number of items on the menu
+```sql
+SELECT COUNT(*) AS total_items
+FROM menu_items;
+```
 ---
 
 ## Results and Findings
