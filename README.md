@@ -48,16 +48,28 @@ The project utilizes data from two main tables:
 
 ---
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis: Uncovering Insights
 
 ### Objective 1: Explore the items table
-Your first objective is to better understand the items table by finding the number of rows, the least and most expensive items, and more.
+Explore the `menu_items` table to better understand the menu offerings:
+- Find the total number of items on the menu.
+- Identify the least and most expensive items.
+- Determine the prices of items within each category.
+- Count and analyze Italian dishes, including their least and most expensive options.
 
 ### Objective 2: Explore the orders table
-Your second objective is to understand the orders table by finding the date range, number of items per order, and more.
+Dive into the `order_details` table to analyze customer orders:
+- Determine the date range of orders.
+- Calculate the number of orders and items ordered within the specified date range.
+- Identify orders with the highest number of items.
+- Investigate how many orders had more than 12 items.
 
 ### Objective 3: Analyze customer behavior
-Your final objective is to combine tables, find the least and most ordered categories, and analyze high spend orders.
+Combine data from `menu_items` and `order_details` to gain insights into customer preferences:
+- Merge tables to analyze the least and most ordered items and their respective categories.
+- Identify the top 5 orders with the highest total spend.
+- Review details of the highest spend order, including specific items purchased.
+- Explore details of the top 5 highest spend orders for additional insights.
 
 ---
 
